@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: open sans;
+  font-family: Arial, Helvetica, sans-serif;
   color: #10214e;
 }
 
@@ -22,10 +22,10 @@ article {
   align-items: center;
   justify-content: flex-end;
   width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+  max-width: 80em;
+  min-width: 50em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
+  background: rgb(83, 218, 228);
   background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
