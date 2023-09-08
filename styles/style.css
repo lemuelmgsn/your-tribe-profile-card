@@ -1,5 +1,51 @@
 body {
-  background-image: url(./assets/MC.avif);
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+ align-items: center;
 }
+article{
+  background-image: url(../assets/cherry\ blossom.jpg);
+  background-color: aquamarine;
+  background-position: center;
+  background-size: cover;
+  width: 550px;
+  height: 350px;
+  border-radius: 25px;
+  
+}
+h1{
+  font-size: 50px;
+  color: aliceblue;
+  font-family:sans-serif
+}
+h5{
+  font-size: 17px;
+  color: aliceblue;
+  font-family: sans-serif;
+  vertical-align: top;
+}
+p{
+  font-size: 30px;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+article{
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgb(240, 174, 229);
+  padding: 50px;
+  padding-top: 2px;
+
+}
+h2{
+  text-align: left;
+  vertical-align: text-bottom;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: sans-serif;
+  
+}
+
