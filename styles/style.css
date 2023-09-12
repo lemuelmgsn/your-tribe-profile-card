@@ -7,8 +7,8 @@ body {
  align-items: center;
 }
 article{
-  background-image: url(../assets/cherry\ blossom.jpg);
-  background-color: aquamarine;
+  background-image: url(../assets/cherry\ kaart.jpg);
+  background-color: rgb(246, 247, 246);
   background-position: center;
   background-size: cover;
   width: 550px;
@@ -18,19 +18,14 @@ article{
 }
 h1{
   font-size: 50px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-family:sans-serif
 }
 h5{
   font-size: 17px;
-  color: aliceblue;
+  color: rgb(3, 3, 3);
   font-family: sans-serif;
   vertical-align: top;
-}
-p{
-  font-size: 30px;
-  color: aliceblue;
-  font-family: sans-serif;
 }
 article{
   border-style: outset;
@@ -40,12 +35,23 @@ article{
   padding-top: 2px;
 
 }
+div{
+  display: flex;
+  align-items: center;
+
+}
 h2{
-  text-align: left;
-  vertical-align: text-bottom;
+  position: absolute;
+  right: 16em;
+  top: 9em;
   font-size: 30px;
-  color: aliceblue;
+  color: rgb(13, 13, 14);
   font-family: sans-serif;
+  z-index: 9;
   
 }
-
+img{
+  max-width: 60%;
+  max-height: 60%;
+  object-position: top 12px right 40px ;
+}
