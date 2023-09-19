@@ -1,4 +1,5 @@
-body {
+body
+{
   background-color: rgb(255, 255, 255);
   background-size: cover;
   height: 100vh;
@@ -6,7 +7,9 @@ body {
   justify-content: center;
  align-items: center;
 }
-article{
+
+article
+{
   background-image: url(../assets/cherry\ kaart.jpg);
   background-color: rgb(246, 247, 246);
   background-position: center;
@@ -14,33 +17,48 @@ article{
   width: 550px;
   height: 350px;
   border-radius: 25px;
-  
 }
-h1{
-  font-size: 50px;
+
+h1
+{
+  font-size: 50px;           
   color: rgb(0, 0, 0);
   font-family:sans-serif
 }
-h5{
+
+h2
+{
   font-size: 17px;
   color: rgb(3, 3, 3);
   font-family: sans-serif;
   vertical-align: top;
 }
-article{
+
+article
+{
   border-style: outset;
   border-width: 5px;
   border-color: rgb(240, 174, 229);
-  padding: 50px;
+  padding: 40px;
   padding-top: 2px;
-
 }
-div{
+
+div
+{
   display: flex;
   align-items: center;
 
 }
-h2{
+
+img
+{
+  max-width: 60%;
+  max-height: 60%;
+  object-position: top 20px right 60px ;
+}
+
+h5
+{
   position: absolute;
   right: 16em;
   top: 9em;
@@ -48,10 +66,8 @@ h2{
   color: rgb(13, 13, 14);
   font-family: sans-serif;
   z-index: 9;
-  
 }
-img{
-  max-width: 60%;
-  max-height: 60%;
-  object-position: top 12px right 40px ;
+.back img{
+  width: 60px;
+  height: 60px;
 }
