@@ -35,7 +35,7 @@
   background: url(/assets/cherrykaart.jpg);
   background-size: cover;
   background-position: center;
-  padding: 100px 100px;
+  padding: 140px 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -92,11 +92,9 @@
   color: #000000;
   font-size: 15px;
   position: relative;
-
 }
 .col h2{
   font-size: 27px;
-
 }
 .back img{
   width: 270px;
@@ -106,3 +104,4 @@
 .card:hover .card-inner{
   transform: rotateY(180deg);
 }
+
